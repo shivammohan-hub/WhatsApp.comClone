@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Private from "./components/Private";
+import VideoCall from "./components/VideoCall";
 import Web from "./components/Web";
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <Hero />
       <Web />
       <Private />
+      <VideoCall />
     </div>
   );
 };
