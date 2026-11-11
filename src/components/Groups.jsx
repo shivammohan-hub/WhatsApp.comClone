@@ -13,15 +13,10 @@ const Groups = () => {
                 </a>
             </div>
         </div>
-        <div className="flex-1 relative">
-    <img className="" src="groupchat.png" alt="" />
-
-    <img
-        className="h-[400px] w-auto absolute top-1/3 left-1/4 -translate-x-1/2 -translate-y-1/4"
-        src="groups.png"
-        alt=""
-    />
-</div>
+        <div className="flex-1 relative ">
+            <img className="" src="groupchat.png" alt="" />
+            <img className="h-[400px] absolute top-28" src="groups.png" alt=""/>
+        </div>
     </section>
     </div>
   )
