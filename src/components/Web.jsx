@@ -1,6 +1,6 @@
 const Web = () => {
   return (
-    <section className="h-[650px] flex gap-24 ">
+    <section className=" flex gap-24 py-24">
         <div className="flex-1 flex justify-end ">
             <img className="h-[550px] w-auto" src="call.png" alt="" />
         </div>

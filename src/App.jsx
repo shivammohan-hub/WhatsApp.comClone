@@ -1,3 +1,8 @@
+import Business from "./components/Business";
+import Encrypted from "./components/Encrypted";
+import Express from "./components/Express";
+import Footer from "./components/Footer";
+import Groups from "./components/Groups";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Private from "./components/Private";
@@ -12,6 +17,11 @@ const App = () => {
       <Web />
       <Private />
       <VideoCall />
+      <Encrypted />
+      <Groups />
+      <Express />
+      <Business />
+      <Footer />
     </div>
   );
 };

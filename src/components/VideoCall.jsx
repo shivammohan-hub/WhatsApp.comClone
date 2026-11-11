@@ -1,7 +1,7 @@
 const VideoCall = () => {
   return (
-    <div>
-        <section className="h-[650px] flex gap-44 py-10">
+    <div className="py-24">
+        <section className=" flex gap-44 ">
         <div className="flex-1 flex items-center justify-end">
             <div className="w-[450px] h-auto flex flex-col gap-5">
                 <h2 className="text-[60px] leading-none">Never miss a moment with voice and video calls</h2>
